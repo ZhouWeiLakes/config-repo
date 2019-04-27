@@ -13,5 +13,5 @@ server:
 env: dev4
 
 girl:
-  name: 小明bbqgithub-Hello World!Code
+  name: 小明bbqgithub-Hello World!Code KAFKA
   age: 12
