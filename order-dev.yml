@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: order
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: zw5058143
+      url: jdbc:mysql://localhost:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  port: 8081
+env: dev4
+
+girl:
+  name: 小明bbq
+  age: 12
