@@ -13,5 +13,5 @@ server:
 env: dev4
 
 girl:
-  name: 小明bbqgithub-Hello World!Code KAFKA RabbitMQ SpringBoot
+  name: 小明bbqgithub-Hello World!Code KAFKA RabbitMQ SpringBoot Netty
   age: 12
