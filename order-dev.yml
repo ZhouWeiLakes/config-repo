@@ -18,5 +18,5 @@ server:
 env: dev4
 
 girl:
-  name: 小明bbqgithub-Hello World!Code KAFKA RabbitMQ SpringBoot Netty RocketmQ hadoop spark storm
+  name: 小明bbqgithub-Hello World!Code KAFKA RabbitMQ SpringBoot Netty RocketmQ hadoop spark storm flink
   age: 12
