@@ -10,8 +10,8 @@ zuul:
       serviceId: product
       sensitiveHeaders: 
    product: /myProduct/**
- ignored-patterns:
-   - /**/product/listForOrder
+  ignored-patterns:
+    - /**/product/listForOrder
 
 
 ribbon:
