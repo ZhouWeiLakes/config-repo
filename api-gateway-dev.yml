@@ -9,9 +9,13 @@ zuul:
       path: /myProduct/**
       serviceId: product
       sensitiveHeaders: 
-   product: /myProduct/**
-  ignored-patterns:
-    - /**/product/listForOrder
+    user:
+      path: /myUser/**
+      serviceId: product
+      sensitiveHeaders: 
+#    product: /myProduct/**
+#   ignored-patterns:
+#     - /**/product/listForOrder
 
 
 ribbon:
