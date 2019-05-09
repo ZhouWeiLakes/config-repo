@@ -8,7 +8,7 @@ zuul:
       serviceId: product
       sensitiveHeaders: 
 #    product: /myProduct/**
-  ignored-patterns:
+#  ignored-patterns:
 #    - /**/product/listForOrder
 
 
