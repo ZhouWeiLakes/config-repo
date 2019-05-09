@@ -1,15 +1,16 @@
 zuul:
+  sensitive-headers:      #忽略全部服务的敏感头(cookied)
   host:
     connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000  #socket超时
-#   routes:
-#     myProduct:
-#       path: /myProduct/**
-#       serviceId: product
-#       sensitiveHeaders: 
-#    product: /myProduct/**
-#  ignored-patterns:
-#    - /**/product/listForOrder
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders: 
+   product: /myProduct/**
+ ignored-patterns:
+   - /**/product/listForOrder
 
 
 ribbon:
