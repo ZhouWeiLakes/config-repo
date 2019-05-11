@@ -12,7 +12,7 @@ spring:
     host: localhost
     port: 5672
     username: guest
-    password: 123456
+    password: guest
 env: dev4
 
 girl:
